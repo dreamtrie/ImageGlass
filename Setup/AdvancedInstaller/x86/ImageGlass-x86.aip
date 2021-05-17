@@ -16,10 +16,10 @@
     <ROW Property="MSIFASTINSTALL" MultiBuildValue="MsiBuild:1"/>
     <ROW Property="Manufacturer" Value="Duong Dieu Phap"/>
     <ROW Property="MsiLogging" MultiBuildValue="MsiBuild:vp"/>
-    <ROW Property="ProductCode" Value="1033:{DA211E61-1226-40ED-B6A1-3A83F2636FB4} " Type="16"/>
+    <ROW Property="ProductCode" Value="1033:{2A8F094E-4952-4A13-AA4D-BEE12528A0DB} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="ImageGlass"/>
-    <ROW Property="ProductVersion" Value="8.2.5.16" Type="32" TargetFile="ImageGlass.exe"/>
+    <ROW Property="ProductVersion" Value="8.2.6.6" Type="32" TargetFile="ImageGlass.exe"/>
     <ROW Property="RUNAPPLICATION" Value="1" Type="4"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
     <ROW Property="UpgradeCode" Value="{877DB994-AB03-4025-B99D-41CE565E810B}"/>
@@ -431,7 +431,7 @@
     <ROW XmlAttribute="xsischemaLocation" XmlElement="swidsoftware_identification_tag" Name="xsi:schemaLocation" Flags="14" Order="3" Value="http://standards.iso.org/iso/19770/-2/2008/schema.xsd software_identification_tag.xsd"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.XmlElementComponent">
-    <ROW XmlElement="swidbuild" ParentElement="swidnumeric" Name="swid:build" Condition="1" Order="2" Flags="14" Text="5" UpdateIndexInParent="0"/>
+    <ROW XmlElement="swidbuild" ParentElement="swidnumeric" Name="swid:build" Condition="1" Order="2" Flags="14" Text="6" UpdateIndexInParent="0"/>
     <ROW XmlElement="swidentitlement_required_indicator" ParentElement="swidsoftware_identification_tag" Name="swid:entitlement_required_indicator" Condition="1" Order="0" Flags="14" Text="false" UpdateIndexInParent="0"/>
     <ROW XmlElement="swidmajor" ParentElement="swidnumeric" Name="swid:major" Condition="1" Order="0" Flags="14" Text="8" UpdateIndexInParent="0"/>
     <ROW XmlElement="swidminor" ParentElement="swidnumeric" Name="swid:minor" Condition="1" Order="1" Flags="14" Text="2" UpdateIndexInParent="0"/>
@@ -445,7 +445,7 @@
     <ROW XmlElement="swidregid" ParentElement="swidsoftware_creator" Name="swid:regid" Condition="1" Order="1" Flags="14" Text="regid.2010-06.org.imageglass" UpdateIndexInParent="0"/>
     <ROW XmlElement="swidregid_1" ParentElement="swidsoftware_licensor" Name="swid:regid" Condition="1" Order="1" Flags="14" Text="regid.2010-06.org.imageglass" UpdateIndexInParent="0"/>
     <ROW XmlElement="swidregid_2" ParentElement="swidtag_creator" Name="swid:regid" Condition="1" Order="1" Flags="14" Text="regid.2010-06.org.imageglass" UpdateIndexInParent="0"/>
-    <ROW XmlElement="swidreview" ParentElement="swidnumeric" Name="swid:review" Condition="1" Order="3" Flags="14" Text="16" UpdateIndexInParent="0"/>
+    <ROW XmlElement="swidreview" ParentElement="swidnumeric" Name="swid:review" Condition="1" Order="3" Flags="14" Text="6" UpdateIndexInParent="0"/>
     <ROW XmlElement="swidsoftware_creator" ParentElement="swidsoftware_identification_tag" Name="swid:software_creator" Condition="1" Order="3" Flags="14" UpdateIndexInParent="0"/>
     <ROW XmlElement="swidsoftware_id" ParentElement="swidsoftware_identification_tag" Name="swid:software_id" Condition="1" Order="5" Flags="14" UpdateIndexInParent="0"/>
     <ROW XmlElement="swidsoftware_identification_tag" Name="swid:software_identification_tag" Condition="1" Order="0" Flags="14" UpdateIndexInParent="0"/>
